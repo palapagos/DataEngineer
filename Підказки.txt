@@ -1,0 +1,23 @@
+Створення віртуального оточення:
+
+Для windows:
+Переходимо в папку де маємо створити віртуальне оточення
+Переходимо в термінал
+Вводимо python -m venv venv
+створення...
+активуємо оточення venv\Scripts\activate
+встановлюємо модулі pip install ...
+записуємо файл з залежностями pip freeze > requirements.txt
+'''відновити всі модулі з файла pip install -r requirements.txt'''
+виключити deactivate
+
+Для Linux:
+Переходимо в папку де маємо створити віртуальне оточення
+Переходимо в термінал
+Вводимо python3 -m venv venv
+створення...
+активуємо оточення source venv/bin/activate
+встановлюємо модулі pip install ...
+записуємо файл з залежностями pip freeze > requirements.txt
+'''відновити всі модулі з файла pip install -r requirements.txt'''
+виключити deactivate
